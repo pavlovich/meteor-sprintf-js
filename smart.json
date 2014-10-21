@@ -1,0 +1,10 @@
+{
+    "name": "meteor-sprintf-js",
+    "description": "Meteor wrapper around sprintf-js",
+    "homepage": "https://github.com/pavlovich/meteor-sprintf-js",
+    "author": "Peter Pavlovich",
+    "git": "https://github.com/pavlovich/meteor-sprintf-js.git",
+    "version": "0.0.1",
+    "packages": {
+    }
+}
