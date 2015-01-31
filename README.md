@@ -1,0 +1,1 @@
+Sprintf.js repackaged for use in Meteor.
