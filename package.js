@@ -1,6 +1,6 @@
 Package.describe({
   name: 'sgi:sprintfjs',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Sprintf JS repackaged for meteor',
   // URL to the Git repository containing the source code for this package.
@@ -11,8 +11,9 @@ Package.describe({
 });
 
 Package.on_use(function (api){
-    api.use('underscore@1.0.2', ['server', 'client']);
+    api.versionsFrom('METEOR@1.0.3')
+    api.use('underscore');
     api.addFiles('lib/sprintf.js');
-    api.export('sprintf', ['client', 'server']);
-    api.export('vsprintf', ['client', 'server']);
+    api.export('sprintf');
+    api.export('vsprintf');
 });
